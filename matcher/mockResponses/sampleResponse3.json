@@ -1,0 +1,11 @@
+{
+    "code": 500,
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "delayMillis": 5000,
+    "body": {
+        "errorCode": "FGHIJK",
+        "message": "Something went seriously wrong"
+    }
+}

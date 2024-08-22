@@ -1,0 +1,20 @@
+[
+    {
+        "method": "GET",
+        "urlRegex": "^https://api.example.com/path/to/url/endpoint*",
+        "mockResponsePath": "mockResponses/sampleResponse1.json",
+        "enabled": true
+    },
+    {
+        "method": "POST",
+        "urlRegex": "^https://api.example.com/path/to/url/endpoint2*",
+        "mockResponsePath": "mockResponses/sampleResponse2.json",
+        "enabled": false
+    },
+    {
+        "method": "PATCH",
+        "urlRegex": "^https://api.example.com/path/to/url/endpoint3*",
+        "mockResponsePath": "mockResponses/sampleResponse3.json",
+        "enabled": true
+    }
+]

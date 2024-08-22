@@ -1,0 +1,11 @@
+{
+    "code": 401,
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "delayMillis": 0,
+    "body": {
+        "errorCode": "ABCDEF",
+        "message": "No credentials provided"
+    }
+}
